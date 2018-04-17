@@ -18,7 +18,6 @@ export default {
 
 <style lang="scss">
 
-@import '../node_modules/ionicons/dist/scss/ionicons.scss';
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
