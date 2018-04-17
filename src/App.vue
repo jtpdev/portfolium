@@ -1,17 +1,25 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <side-bar></side-bar>
     <router-view/>
   </div>
 </template>
 
 <script>
+import { SideBar } from './components/SideBar'
+
 export default {
-  name: 'App'
+  name: 'Portfolium',
+  components: {
+    'side-bar': SideBar
+  }
 }
 </script>
 
-<style>
+<style lang="scss">
+
+@import '../node_modules/ionicons/dist/scss/ionicons.scss';
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

@@ -1,6 +1,6 @@
-# portifolium
+# Portfolium
 
-> A project to create a portifolium in the web.
+> A project to create a portfolio in the web.
 
 ## Build Setup
 
