@@ -1,12 +1,16 @@
 <template>
-  <div id="app">
-    <side-bar></side-bar>
-    <router-view/>
+  <div id="app" class="row">
+    <div class="col-sm-2">
+      <side-bar/>
+    </div>
+    <div class="col-sm-10">
+      <router-view/>
+    </div>
   </div>
 </template>
 
 <script>
-import { SideBar } from './components/SideBar'
+import SideBar from './components/SideBar'
 
 export default {
   name: 'Portfolium',
@@ -17,13 +21,13 @@ export default {
 </script>
 
 <style lang="scss">
-
+@import '../node_modules/ionicons/dist/css/ionicons.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap';
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }
