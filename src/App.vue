@@ -1,9 +1,9 @@
 <template>
-  <div id="app" class="row">
-    <div class="col-sm-2">
+  <div id="app">
+    <div class="side">
       <side-bar/>
     </div>
-    <div class="col-sm-10">
+    <div class="main">
       <router-view/>
     </div>
   </div>
@@ -35,4 +35,16 @@ html, body {
   color: #2c3e50;
   height: 100%;
 }
+
+.side {
+  width: 240px;
+  height: 100%;
+  position: fixed;
+}
+
+.main {
+  margin-left: 240px;
+  height: 100%;
+}
+
 </style>

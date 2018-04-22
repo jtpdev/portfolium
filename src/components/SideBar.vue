@@ -22,8 +22,10 @@ export default {
 
 <style lang="scss" scoped>
 
+$side-bar-color: #919e9c;
+
 .sidebar {
-    background-color: #c6c6c6;
+    background-color: $side-bar-color;
     color: #FFF;
     height: 100%;
 }
@@ -39,8 +41,10 @@ ul {
     text-align: center; 
     padding: 50px 0 50px 0;
     > img {
-        width: 100px;
-        border-radius: 50px;
+        width: 120px;
+        border-radius: 100px;
+        border: 7px solid #FFF;
+        box-shadow: 4px 4px darken($side-bar-color, 20%);
     }
 }
     
