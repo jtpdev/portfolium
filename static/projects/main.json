@@ -1,0 +1,32 @@
+[
+    {
+        "name" : "JtpAlert",
+        "description" : "This project was generated with Angular CLI version 1.7.3.",
+        "categories" : [
+            {
+                "name" : "Utils",
+                "description" : "Utilities to use in your projects"
+            }
+        ],
+        "medias" : [
+            {
+                "path" : "/static/img/jtp-alert.png"
+            }
+        ]
+    },
+    {
+        "name" : "JtpSelect",
+        "description" : "A simple alert for Angular",
+        "categories" : [
+            {
+                "name" : "Utils",
+                "description" : "Utilities to use in your projects"
+            }
+        ],
+        "medias" : [
+            {
+                "path" : "/static/img/jtp-select.png"
+            }
+        ]
+    }
+]
