@@ -21,7 +21,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import '../node_modules/ionicons/dist/css/ionicons.css';
+@import '../node_modules/ionicons/css/ionicons.css';
 @import '../node_modules/bootstrap/dist/css/bootstrap';
 
 html, body {
